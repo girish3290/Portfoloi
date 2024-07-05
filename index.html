@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8ab498b66b.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="IMG-20240331-WA0001-removebg-preview.png" alt="" class="anch">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                     <i class="fa-solid fa-xmark" id="cross" onclick="closemenu()"></i>  
+                     <!-- <i class="fa-solid fa-bars" id="burg" onclick="openmenu()"></i>  -->
+                </ul>
+                
+                <i class="fa-solid fa-bars" id="burg" onclick="openmenu()"></i>
+            
+              
+                
+                
+              
+            </nav>
+            <div class="header-text">
+                <!--<p>Web Developer</p>
+                <h1>Hi, I'm <span>Anchal</span> <br>Maurya From India</h1> -->
+                <h3>Hello, It's Me</h3>
+                <h1>G.Girish Kumar</h1>
+                <h3>And I'm a <span class="text1"></span></h3>
+                <p class="para">I'm Web Designiner and expertise is to create and websites design,</p>
+                
+                <p class="para">Fronted design, and many more and here is my portfolio website.</p>
+
+            </div>
+        </div>
+    </div>
+  <!------------about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="d.png" id="anchal">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Pre-final year Computer Science student Passionate about programming and development.
+                        I am motivated and versatile individual, always eager to learn, to take new challenges and make mark in the world of tech.
+                    </p>
+                          
+                          <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('eduction')">Education</p>
+                          </div>
+
+                          <div class="tab-contents active-tab" id="skills">
+                          <!---  <ul>
+                               <li><span>Technical Skills</span><br>HTML, CSS, C/C++, Javascript, React, Tailwind, Basic Python </li> -->
+                                <!-- <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>Coder</span><br>solve complex coding problem</li> -->
+
+                              <!---  </ul> -->
+                              <div class="skill-box">
+                            <span class="title">HTML</span>
+                            <div class="skill-bar">
+                                <span class="skill-per html">
+                                    <span class="tooltip">90%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="skill-box">
+                            <span class="title">CSS</span>
+                            <div class="skill-bar">
+                                <span class="skill-per css">
+                                    <span class="tooltip">85%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="skill-box">
+                            <span class="title">C++</span>
+                            <div class="skill-bar">
+                                <span class="skill-per cpp">
+                                    <span class="tooltip">85%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="skill-box">
+                            <span class="title">Javascript</span>
+                            <div class="skill-bar">
+                                <span class="skill-per javascript">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="skill-box">
+                            <span class="title">React</span>
+                            <div class="skill-bar">
+                                <span class="skill-per react">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="skill-box">
+                            <span class="title">Tailwind</span>
+                            <div class="skill-bar">
+                                <span class="skill-per tailwind">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                         <br>
+                        <div class="skill-box">
+                            <span class="title">Typescript</span>
+                            <div class="skill-bar">
+                                <span class="skill-per typescript">
+                                    <span class="tooltip">60%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                                </div>
+                              
+                            
+                          <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>June-July(2023)</span><br>WebDevelopment Intern at Digital Bhem.</li>
+                                <li><span>April(2024)-Present</span><br>Open source contributor at Girl Script Summer of Code.</li>
+                                <li><span>Present</span><br>Basketball Captain of College.</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="eduction">
+                            <ul>
+                                <li><span>2021-Present</span><br>B-Tech(Computer Science Engineering) <br>
+                                    BundelKhand Institute of Engineering and Technology,Jhansi</li>
+                                <li><span>2018-2020</span><br>Intermidiate <br> Shemford School,Mirzapur</li>
+                                <li><span>2016-2018</span><br>HighSchool <br> Shemford School, Mirzapur</li>
+                            </ul>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------Services------------------->
+    
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <!-- <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2> -->
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Front End Developer</h2>
+                        <p>Creating websites and web applications through innovative web development</p>
+                            <a href="#project">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Coder</h2> 
+                        <p>Weaving Complex ideas into functional code for seamless digital solutions</p>
+                            <a href="#about">Learn more</a>
+                    </div>
+                    
+                   
+                     <div>
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <h2>DSA Doubt Solver</h2>
+                        <p>Solving doubt related to Data Structure and Algorithms</p>
+                            <a href="#">Learn more</a>
+                    </div> 
+                    <!-- <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam in alias qui iste sapiente dolore accusamus eos aperiam labore 
+                            ipsum corrupti sequi aut, praesentium vel iure sit incidunt deleniti unde?</p>
+                            <a href="#">Learn more</a>
+                    </div>  -->
+                </div>
+            </div>
+        </div>
+
+        <!--**********************Project********************-->
+     <div id="project">
+      <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="biet2.jpg" alt="">
+                <div class="layer">
+                    <h1>BIET Vidyarthi</h1>
+                    <p>The website provide study material to Engineering students.</p>
+                    <br>
+                    <h2><i class="fa-brands fa-html5"></i>  <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i> <i class="fa-brands fa-php"></i> <i class="fa-brands fa-bootstrap"></i></h2>
+                    <a href="https://bietvidhyarthi.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="ww.jpg" alt="">
+                <div class="layer">
+                    <h1>Weather App</h1>
+                    <p>It shows realtime weather of a city using API fetching.</p>
+                    <br>
+                    <h2><i class="fa-brands fa-html5"></i>  <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i> <i class="fa-brands fa-react"></i></h2>
+                    <a href="https://anchal2749.github.io/Weather-API/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <!-- <div class="work">
+                <img src="https://cdn.pixabay.com/photo/2017/06/13/13/30/check-list-2398890_640.png" alt="">
+                <div class="layer">
+                    <h1>TODO List</h1>
+                    <p>A to-do list is just a list of things you have to-do.</p>
+                    <br>
+                    <h2><i class="fa-brands fa-html5"></i>  <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i><h5 style="background-color: aliceblue; color: rgb(232, 23, 93);padding: 2px;">TS</h5></h2>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div> -->
+            
+            <div class="work">
+                <img src="calci2.jpg" alt="">
+                <div class="layer">
+                    <h1>Calculator</h1>
+                    <p>Used for mathmatical for calculation.</p>
+                    <br>
+                    <h2><i class="fa-brands fa-html5"></i>  <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"> </i></h2>
+                    <a href="https://anchal2749.github.io/calculator/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="tictakport.jpg" alt="">
+                <div class="layer">
+                    <h1>TIC-TAC-TOE</h1>
+                    <p>Interesting gaming website.</p>
+                    <br>
+                    <h2><i class="fa-brands fa-html5"></i>  <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i></h2>
+                    <a href="https://anchal2749.github.io/tic-tac-toe/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+           
+            <div class="work">
+                <img src="a3.jpg" alt="">
+                <div class="layer">
+                    <h1>Portfolio</h1>
+                    <p>Detailed information about mine.</p>
+                    <br>
+                    <h2><i class="fa-brands fa-html5"></i>  <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i></h2>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+     </div>
+
+     <!--*******************contact**************-->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>anchalmaurya474@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8318996965</p>
+                    <div class="social-icons">
+                        <a href="https://m.facebook.com/profile.php?id=100080151262060"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/si.hal2749?igsh=amp5dHV0cjRlMXZj"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.threads.net/@si.hal2749"><i class="fa-brands fa-threads"></i></a>
+                        <a href="https://www.linkedin.com/in/anchalmaurya2749"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Anchal2749"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="anchalnew500.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> <i class="fa-regular fa-copyright"></i> 2024 Anchal Maurya. All right reserved</p>
+        </div>
+     </div>
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }   
+
+   </script>
+<!---***********menu-bar************-->
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+    var burgi = document.getElementById("burg");
+    var crosi = document.getElementById("cross");
+
+    // function openmenu(){
+    //     sidemenu.style.left = "350px";
+    // }
+    // function closemenu(){
+    //     sidemenu.style.left = "-550px";
+    // }
+    // sidemenu.style.display = "none";
+    // function res(){
+    //     sidemenu.style.display = "none";
+    // }
+     if(window.matchMedia("(max-width:800px)")){
+       // sidemenu.style.display = "none";
+     }
+    
+    function closemenu(){
+        sidemenu.style.display = "none";
+        burgi.style.display ="block";
+        }
+
+        function openmenu(){
+        sidemenu.style.display = "block";
+        burgi.style.display="none";
+        }
+
+       
+
+</script> 
+<!--************animation*************-->
+<script>
+var typed = new Typed(".text1",{
+    strings:["Fronted Developer","Web Developer","Coder"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop:true
+});
+</script>
+
+
+<!--*********git hub script**************-->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw5CdZGv7NNGr_lOSgLeA0p8lxB7wWYQ6xRXCq95F6N3Euk7P_5L9THvA2lRZMMFVI/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
